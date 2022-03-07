@@ -1,0 +1,40 @@
+$date
+	Mon Mar  7 22:08:26 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	10ps
+$end
+$scope module tb_multiplier_6bit $end
+$var reg 6 ! A [5:0] $end
+$upscope $end
+$scope module tb_multiplier_6bit $end
+$var reg 6 " B [5:0] $end
+$upscope $end
+$scope module tb_multiplier_6bit $end
+$var wire 13 # prod [12:0] $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 #
+b0 "
+b0 !
+$end
+#1500
+b11011 !
+#3000
+b110110 #
+b10 "
+#4500
+b1111110 #
+b111111 !
+#6000
+b111110000001 #
+b111111 "
+#7500
+b101001010110 #
+b101010 "
+#8500
