@@ -6,8 +6,7 @@ CLA.vcd: CLA
 CLA: CLA.v CLA_32bit.v t_CLA_32bit.v
 	$(verilog) -o $@ $^
 
-
 clean:
-	rm CLA.vcd CLA
+	rm -r CLA.vcd CLA
 
 
